@@ -1,0 +1,353 @@
+ 
+
+
+  contener {
+  width:  900px;
+  margin: auto;
+ }  
+
+ 
+
+ body {
+  direction: rtl;
+  /* text-align: right; */
+}
+
+.backimg{
+  width: 180; 
+  height: 250px;
+  position: relative;
+  float:right;
+  /* margin: auto; */
+ /* top: 20; */
+ 
+  margin-right: 100px;
+  margin-top: 80px;
+ 
+}
+
+legend{
+  height:300;
+}
+.fname  {
+  color: black;
+}
+
+
+form {
+  /* background-color: rgba(60, 60, 60,0.9); */
+  position: absolute;
+  width: 140;
+  height: 200px;
+  bottom: 40px;
+  /* color: #fff; */
+ 
+  margin: auto;
+   }
+
+
+
+
+.rowin > label {
+  width: 20PX;
+  font-style: normal;
+  font-size: 12px;
+  /* float: left; */
+  padding-right: 20px;
+}
+
+.rowin > input {
+  width: 150px;
+  float: left; 
+}
+
+form >  .button {
+  float: right;
+}
+
+.melel {
+  /* font-family: "Times New Roman" ; */
+  font-style: normal;
+  font-size: 14px;
+  margin: 0;
+  color: black;
+  padding-right: 20px;
+}
+
+.melel1 {
+  padding-right: 20px;
+}
+
+
+form >  .button {
+   
+  float: left;
+  
+}
+
+.rowin::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+ .backimg2 {
+  width: 293px;
+  height: 355px;
+  position: relative;
+  float:right;
+  
+  margin-right: 100px;
+  margin-top: 80px;
+  }
+
+ .backimg2sun {
+   /* background-color: rgba(60, 60, 60, 0.8); */
+   position: absolute;
+   width: 150;
+   height: 100px;
+   
+   bottom: 255px;
+   color: black;
+   margin:auto;
+ 
+    }
+
+    .backimg2sun  > h3 {
+      padding-right: 50px;
+    }
+    .backimg2sun  > p {
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    color: black;
+    padding-right: 50px;
+    }
+
+    .all1{
+      float: left;
+    }
+
+   h3 { 
+      color: #005ca0;
+     }
+
+    .cubesun > h3{
+      margin: 0;
+ 
+}
+
+
+
+    .backimg2::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+
+
+    
+ .backimg3 {
+  width: 293px;
+  height: 355px;
+  position: relative;
+  bottom: 170px;
+  margin-right: 100px;
+  margin-top: 80px;
+  }
+
+ .backimg3sun {
+   /* background-color: rgba(60, 60, 60, 0.8); */
+   position: absolute;
+   width: 150;
+   /* height: 100px; */
+   
+    /* bottom: 0px;  */
+   color: black;
+   margin:auto;
+ top : 350px;
+    }
+
+    .backimg3sun  > h3 {
+      padding-right: 50px;
+      
+    }
+
+    
+    .backimg3sun  > a {
+      padding-right: 50px;
+      font-size: 12px;
+    } 
+
+    .backimg3sun  > p  {
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    color: black;
+    padding-right: 50px;
+    }
+
+
+    .column1 {
+     display: block;
+     float: right;
+    }
+     
+
+    .backimg3::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+/* ץץץץ */
+
+    
+
+
+nav {
+  background-color: #909090;
+  height: 100px;
+  position: relative;
+  font-family: Arial;
+}
+
+nav > ul {
+  padding: 0;
+  position: absolute;
+  bottom: 10px;
+
+}
+
+nav > ul > li {
+  display: inline;
+}
+
+nav > ul > li:last-child {
+  float: right;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav > ul > li > a:hover {
+  background-color:   #909090;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #909090;
+  top: 20;
+  /* left: 50px;  */
+  left: 5%;
+  z-index: 1; 
+   width: 140px;  
+  box-shadow: 5px 5px 5px 0px rgba(60, 60, 60, 0.8);
+}
+
+.dropdown-content > a {
+  display: block;
+  /* text-decoration: none; */
+  padding: 10px;
+  color: white;
+}
+
+.dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+
+
+
+nav > ul > li.active > a {
+  background-color: lightseagreen;
+}
+/*
+ .logopaz{
+    display: block;  
+  width: 142px;
+  height: 93px;
+    position: absolute;  
+  bottom: 10px;
+  right: -8px;  
+
+}  
+*/
+nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/* ... */
+
+
+footer {
+  background-color: #909090;
+  height: 60px;
+   position: relative;  
+  font-family: Arial;
+  /* bottom: -110px; */
+  top :450px;
+}
+
+footer > ul {
+   
+    position: absolute;  
+
+   
+}
+
+footer > ul > li {
+  display: inline;
+}
+
+footer > ul > li:last-child {
+  float: left;
+}
+
+footer > ul > li > a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer > ul > li > a:hover {
+  background-color: aqua;
+}
+
+
+nafooterv > ul > li.active > a {
+  background-color: lightseagreen;
+}
+
+footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+
